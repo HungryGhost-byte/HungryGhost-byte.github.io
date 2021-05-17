@@ -29,6 +29,13 @@ nav {
     padding: 30px 40px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 .HG {
     font-family: 'Share Tech Mono', monospace;
 }
@@ -91,6 +98,32 @@ nav {
     font-size: 90px;
     letter-spacing: 4px;
     margin-top: 440px;
+}
+
+/**************** PROJECT SECTION ****************/
+
+.about-textpj p {
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 145%;
+    text-align: left;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+#DownloadProj {
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+    color: rgb(255, 255, 255);
+}
+
+.cardsofa {
+    font-family: 'IM Fell English', serif;
+    color:rgb(211, 211, 211);
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center
 }
 
 /**************** ABOUT SECTION ****************/

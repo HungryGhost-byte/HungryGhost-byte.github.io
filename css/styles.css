@@ -49,14 +49,14 @@ body {
     padding: 13% 15%;
 }
 
-.container h1 {
+.container.titlecon h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 6rem;
     line-height: 1.5;
     font-weight: bold;
 }
 
-.container p {
+.container.titlecon p {
     font-size: 1.3rem;
 }
 
@@ -72,14 +72,18 @@ body {
 /* Title Image */
 
 
-
 .title-image2 {
-z-index: 1;
+    z-index: 1;
+    width: 560px;
+    max-width: 100%;
+    height: auto;
 }
 
 .title-image1 {
-position: absolute;
-z-index: 2;
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -111,6 +115,15 @@ p {
 
 /* Coding Project */
 
+
+.project-image {
+    position: absolute;
+    z-index: 1;
+    left:1px;
+    max-width: 100%;
+    height: auto;
+}
+
 .gameprojectname {
     color: white;
     text-decoration: none;
@@ -121,11 +134,14 @@ p {
     padding: 7% 15%;
     text-align: center;
     background-color: #916BBF;
+    text-align: center;
 }
 
 #projects h1 {
     font-size: 5rem;
     padding-top: 4%;
+    position: relative;
+    z-index: 2;
 }
 
 #projects h2 {
@@ -145,6 +161,8 @@ p {
 #about-me h1 {
     font-size: 5rem;
     padding-top: 4%;
+    position: relative;
+    z-index: 2;
 }
 
 #about-me {
@@ -153,10 +171,10 @@ p {
     font-size: 10rem;
 }
 
-.about-text {
+/* .about-text {
     background-color:#916BBF;
     border-style: none;
-}
+} */
 
 #about-me p {
     font-size: 1.8rem;
@@ -165,7 +183,7 @@ p {
 
 .boldtext {
     text-decoration: none;
-    color: white;
+    color: #916BBF;
     font-size: 2.5rem;
 }
 
@@ -185,6 +203,8 @@ p {
 #art h1 {
     font-size: 5rem;
     padding-top: 4%;
+    position: relative;
+    z-index: 2;
 }
 
 #art {

@@ -86,6 +86,13 @@ body {
     height: auto;
 }
 
+/* .title-image1 {
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+} */
+
 
 /* Features Section */
 
@@ -174,11 +181,11 @@ p {
 /* .about-text {
     background-color:#916BBF;
     border-style: none;
+    margin-left: 50px;
 } */
 
 #about-me p {
     font-size: 1.8rem;
-    padding: 5% 10%;
 }
 
 .boldtext {
@@ -187,9 +194,6 @@ p {
     font-size: 2.5rem;
 }
 
-.about-text {
-    margin-left: 50px;
-}
 
 .about-text p {
     color:black;
@@ -197,6 +201,9 @@ p {
     text-align: left;
 }
 
+.about-box {
+    padding-top: 100px;
+}
 
 /* My Art */
 

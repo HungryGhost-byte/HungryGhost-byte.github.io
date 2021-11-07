@@ -115,11 +115,9 @@ p {
 
 /* Coding Project */
 
-
 .project-image {
-    position: absolute;
+
     z-index: 1;
-    left:1px;
     max-width: 100%;
     height: auto;
 }
@@ -142,6 +140,7 @@ p {
     padding-top: 4%;
     position: relative;
     z-index: 2;
+    top: 100px;
 }
 
 #projects h2 {
@@ -163,6 +162,7 @@ p {
     padding-top: 4%;
     position: relative;
     z-index: 2;
+    top: 180px;
 }
 
 #about-me {
@@ -205,6 +205,7 @@ p {
     padding-top: 4%;
     position: relative;
     z-index: 2;
+    top: 100px;
 }
 
 #art {

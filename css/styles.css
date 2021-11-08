@@ -61,7 +61,6 @@ body {
 }
 
 
-
 /* Download Buttons */
 
 .download-button {
@@ -86,7 +85,12 @@ body {
     height: auto;
 }
 
-
+.title-image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
 
 /* Features Section */
 
@@ -273,3 +277,4 @@ p {
         z-index: 2;
         height: 350px;
 }}
+

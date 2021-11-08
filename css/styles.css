@@ -71,6 +71,13 @@ body {
 
 /* Title Image */
 
+.title-image1 {
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+}
+
 
 .title-image2 {
     z-index: 1;
@@ -79,19 +86,6 @@ body {
     height: auto;
 }
 
-.title-image1 {
-    position: absolute;
-    z-index: 2;
-    max-width: 100%;
-    height: auto;
-}
-
-/* .title-image1 {
-    position: absolute;
-    z-index: 2;
-    max-width: 100%;
-    height: auto;
-} */
 
 
 /* Features Section */
@@ -128,6 +122,7 @@ p {
     max-width: 100%;
     height: auto;
 }
+
 
 .gameprojectname {
     color: white;
@@ -269,3 +264,12 @@ p {
 .footeranchor {
     color:inherit;
 }
+
+
+
+@media (max-width:500px) {
+    .title-image1 {
+        position: absolute;
+        z-index: 2;
+        height: 350px;
+}}
